@@ -1,12 +1,13 @@
 import React from 'react'
 import {BrowserRouter as Router} from 'react-router-dom'
 import Routes from 'routes'
+import TopBar from 'components/topbar'
 
 const App = () => {
   return (
-    <div>
-      <h1>This is the React Application!</h1>
+    <div className="container">
       <Router>
+        <TopBar />
         <Routes />
       </Router>
     </div>
