@@ -71,6 +71,16 @@ button {
   border-bottom: 1px solid var(--site-underline);
 }
 
+#error-messages {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#error-messages li{
+  color: red;
+  font-size: .8rem;
+}
+
 /* Top bar */
 
 nav {
