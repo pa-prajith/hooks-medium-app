@@ -398,3 +398,10 @@ ul.pagination li.page-active {
   border-radius: 2rem;
   margin-top: 0.5rem;
 }
+
+.tags ul.feed-tag li a,
+.tags ul.feed-tag li a:visited,
+.tags ul.feed-tag li a:hover {
+  color: var(--site-bg-color);
+  text-decoration: none;
+}
