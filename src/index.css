@@ -367,3 +367,34 @@ li.page-active a {
 ul.pagination li.page-active {
   border: 1px sold var(--site-color) !important;
 }
+
+/* Popular Tags */
+
+.popular-tags-container {
+  width: 85%;
+  margin: 3rem auto;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.popular-tags-container h2 {
+  text-align: center;
+}
+
+.tags ul.feed-tag {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.tags ul.feed-tag li {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5em;
+  font-size: 0.75rem;
+  background-color: var(--site-color);
+  color: var(--site-bg-color);
+  border-radius: 2rem;
+  margin-top: 0.5rem;
+}
