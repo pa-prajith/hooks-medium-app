@@ -317,13 +317,13 @@ ul.auth-container li:nth-child(2) a:visited {
   align-self: center;
 }
 
-.feed-content-details ul.feed-tag {
+ul.feed-tag {
   list-style: none;
   display: flex;
   justify-content: flex-start;
 }
 
-.feed-content-details ul.feed-tag li {
+ul.feed-tag li {
   padding: 0.5rem 1rem;
   margin-right: 1em;
   font-size: 0.75rem;
@@ -424,4 +424,40 @@ ul.pagination li.page-active {
   font-weight: 500;
   font-size: 1.2rem;
   text-decoration: none;
+}
+
+.page-content {
+  padding: 3rem 2rem 5rem 2rem;
+  margin: 0.5rem 0 2rem 0;
+  background-color: var(--site-color);
+  color: var(--site-bg-color);
+  text-align: left;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+}
+
+.page-content h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0;
+}
+
+.page-content .feed-item-user span.updated-date {
+  color: var(--site-bg-color);
+}
+
+.page-content .feed-item-user .updated-user a,
+.page-content .feed-item-user .updated-user a:visited,
+.page-content .feed-item-user .updated-user a:hover {
+  color: var(--site-bg-color);
+  text-decoration: none;
+}
+
+.page-body {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  margin-top: 3rem;
+  padding: 2rem;
 }
