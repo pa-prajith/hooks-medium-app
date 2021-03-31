@@ -32,6 +32,17 @@ body {
   color: var(--site-color);
 }
 
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+input,
+textarea {
+  background-color: var(--site-bg-color);
+  color: var(--site-color);
+}
+
 .container {
   width: 90vw;
   margin: 0 auto;
@@ -53,6 +64,7 @@ button {
   color: var(--site-bg-color);
   background-color: var(--site-color);
   font-size: 1.2rem;
+  border-radius: 0.5rem;
 }
 
 .center {
@@ -63,6 +75,15 @@ button {
   width: 100%;
   height: 2rem;
   font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.w-100-no-h {
+  width: 100%;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }
 
 .active {
@@ -460,4 +481,30 @@ ul.pagination li.page-active {
   border-radius: 1rem;
   margin-top: 3rem;
   padding: 2rem;
+}
+
+/* Article Form */
+
+ul.article-table {
+  width: 70%;
+  list-style: none;
+  margin: 3rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  /* background-color: #fff; */
+  border-radius: 1rem;
+}
+
+ul.article-table li {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+ul.article-table li:last-child {
+  text-align: right;
+}
+ul.article-table li:first-child {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
