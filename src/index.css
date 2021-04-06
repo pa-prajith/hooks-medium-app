@@ -341,7 +341,7 @@ ul.auth-container li:nth-child(2) a:visited {
 ul.feed-tag {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 ul.feed-tag li {
@@ -474,6 +474,24 @@ ul.pagination li.page-active {
 .page-content .feed-item-user .updated-user a:hover {
   color: var(--site-bg-color);
   text-decoration: none;
+}
+
+.page-actions {
+  text-align: right;
+}
+
+.page-actions button {
+  margin-left: 2rem;
+  font-size: 0.75rem;
+  color: var(--site-color);
+  background-color: var(--site-bg-color);
+  transition: all 700ms;
+  cursor: pointer;
+}
+
+.page-actions button:hover {
+  color: var(--site-bg-color);
+  background-color: var(--site-color);
 }
 
 .page-body {
