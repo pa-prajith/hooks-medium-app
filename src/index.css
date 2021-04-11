@@ -329,6 +329,11 @@ ul.auth-container li:nth-child(2) a:visited {
   text-decoration: none;
 }
 
+.feed-content-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .feed-content-details {
   display: flex;
   justify-content: space-between;
@@ -351,6 +356,18 @@ ul.feed-tag li {
   background-color: var(--site-color);
   color: var(--site-bg-color);
   border-radius: 2rem;
+}
+
+.item-favorite {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.item-favorite i {
+  margin-right: 0.3rem;
+  cursor: pointer;
 }
 
 /* Pagination */
