@@ -546,3 +546,20 @@ ul.article-table li:first-child h2 {
   font-weight: 500;
   font-size: 2.2rem;
 }
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-header img {
+  border-radius: 50%;
+  width: 8rem;
+  align-self: center;
+}
+
+.profile-header span {
+  margin: 1rem;
+  align-self: center;
+  font-size: 1.3rem;
+}
